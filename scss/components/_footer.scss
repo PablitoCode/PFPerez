@@ -1,0 +1,18 @@
+/* ASPECTOS FOOTER */
+
+footer {
+    top: 100;
+    background: white
+}
+
+.redes {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;     
+}
+
+.links {
+    color: $lightcolor;
+    font-size: 20px;
+    text-decoration: none; 
+}

@@ -1,0 +1,182 @@
+/* Aspectos generales */
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: grey;
+  z-index: 1;
+}
+
+main {
+  padding-top: 65px;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+ul li a {
+  color: black;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+body {
+  background-color: grey;
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+/* ASPECTOS FOOTER */
+footer {
+  top: 100;
+  background: white;
+}
+
+.redes {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.links {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Aspectos INDEX */
+.principal img {
+  width: 100%;
+}
+
+/* Aspectos GALERIA */
+.main-galeria img {
+  width: 100%;
+}
+
+/* Aspectos QUIENES SOMOS*/
+.section {
+  background-color: rgb(40, 38, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  width: 50%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.parrafo {
+  width: 100%;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.section h1 {
+  margin: 0;
+  color: aquamarine;
+  font-size: 24px;
+}
+
+.section p {
+  color: white;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+/* Aspectos SERVICIOS */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  height: 800px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+  background-image: url(../images/cardimage1.jpg);
+}
+
+.card-2 {
+  background-image: url(../images/cardimage2.jpg);
+}
+
+.card-3 {
+  background-image: url(../images/cardimage3.jpg);
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card:hover {
+  background-color: rgb(59, 114, 231);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+@media (max-width: 767px) {
+  .section {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

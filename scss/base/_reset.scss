@@ -1,0 +1,52 @@
+/* Aspectos generales */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    background: $maincolor;
+    z-index: 1;
+}
+
+main {
+    padding-top: 65px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display:inline-block;
+    margin: 0px 10px;
+}
+
+ul li a {
+    color: $lightcolor;
+    font-size: 1.3rem;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: $maincolor;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+

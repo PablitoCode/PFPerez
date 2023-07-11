@@ -1,0 +1,15 @@
+//imports base
+
+@import 'base/vars';
+@import 'base/utilities';
+@import 'base/reset';
+
+//imports components
+
+@import 'components/footer';
+@import 'components/navbar.scss';
+
+//import layouts
+
+@import 'layout/index.scss';
+@import 'layout/medias.scss';
